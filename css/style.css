@@ -37,7 +37,8 @@ align-items: flex-start;
 }
 
 .person__header {
-margin-bottom: 32px;
+margin-bottom: 24px;
+
 }
 
 .person__link {
@@ -47,6 +48,7 @@ color: #444054;
 
 .person__name {
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .person__photo {
