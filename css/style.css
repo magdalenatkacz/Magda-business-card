@@ -5,3 +5,66 @@ html {
 *, *:after, *:before {
   box-sizing: inherit;
 }
+
+body {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(126deg, rgba(238, 174, 202, 1) 6%, rgba(148, 178, 233, 0.9752275910364145) 71%);
+  min-height: 100vh;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  background: rgb(200, 106, 147);
+  background: linear-gradient(126deg, rgba(200, 106, 147, 0.5438550420168067) 26%, rgba(85, 129, 209, 0.29175420168067223) 71%);
+  border-radius: 16px;
+  max-width: 624px;
+  width: 100%;
+  padding: 32px;
+}
+
+.person {
+display: flex;
+align-items: flex-start;
+}
+
+.person__description {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.person__header {
+margin-bottom: 32px;
+}
+
+.person__link {
+text-decoration: none;
+color: #444054;
+}
+
+.person__name {
+  margin-bottom: 0;
+}
+
+.person__photo {
+  max-width: 150px;
+  max-height: 300px;
+  margin-right: 32px;
+ 
+}
+
+.person__position {
+font-size: 17px;
+font-style: italic;
+}
+
+.person__special {
+color: #3D2B56;
+font-weight: normal;
+}
+
+
+
