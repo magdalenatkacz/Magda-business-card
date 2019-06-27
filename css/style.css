@@ -23,7 +23,7 @@ body {
   border-radius: 16px;
   max-width: 624px;
   width: 100%;
-  padding: 32px;
+  padding: 12px;
 }
 
 .person {
@@ -33,7 +33,7 @@ align-items: flex-start;
 
 .person__description {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 .person__header {
@@ -50,9 +50,15 @@ color: #444054;
 }
 
 .person__photo {
-  max-width: 150px;
+  max-width: 300px;
   max-height: 300px;
-  margin-right: 32px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 3px double #0B4F6C;
+  border-radius: 50%;
+  display: flex; 
+  align-self: center;
  
 }
 
